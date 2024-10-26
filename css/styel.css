@@ -1,15 +1,16 @@
 header {
     background-color:#FFF8F3;
-    background-image: url(../images/developer.png);
+    background-image: url(../images/developer.png),url(../images/header_bg.png );
+    /* background-image: url(../images/header_bg.png ); */
     background-repeat: no-repeat;
     /* background-position-y: right; */
-    background-position-x:bottom right,left;
-    /* background-position-y: bottom,center; */
+    background-position-x:left,right;
+    background-position-y: center,bottom;
 }
 
 
 .continer {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 nav {
@@ -38,7 +39,7 @@ samp {
 }
 
 nav .nav-logu h1 {
-    font-size: 50px;
+    font-size: 45px;
 }
 nav .botto {
     background-color: tomato;
@@ -58,7 +59,26 @@ header .hed-continor .hed-tex {
     flex-direction: column;
     justify-content: center;
 }
-
+header .hed-continor .hed-tex h2 {
+font-size: 45px;
+}
+header .hed-continor .hed-tex h1 {
+    font-size: 85px;
+}
+header .hed-continor .hed-tex p {
+    font-size: 30px;
+    color: #757575;
+}
+header .hed-continor .hed-tex a {
+    background-color: tomato;
+    padding: 18px 35px;
+    border-radius: 8px;
+    color: #ffff;
+    font-size: 25px;
+    font-weight: bold;
+    width: 160px;
+    text-decoration: none;
+}
 header .hed-img {
 width: 50%;
 }
