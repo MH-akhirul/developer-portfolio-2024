@@ -68,17 +68,87 @@ header .hed-continor .hed-tex h1 {
 header .hed-continor .hed-tex p {
     font-size: 30px;
     color: #757575;
+    /* font-size: 20px; */
+    margin-bottom: 30px;
 }
-header .hed-continor .hed-tex a {
+ header .hed-continor .hed-tex a {
     background-color: tomato;
     padding: 18px 35px;
     border-radius: 8px;
-    color: #ffff;
+    color:white;
     font-size: 25px;
     font-weight: bold;
     width: 160px;
     text-decoration: none;
-}
+ }
+
+
 header .hed-img {
 width: 50%;
+}
+
+/* mail section css */
+
+
+main .continer  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#FFF8F3 ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 500px;
+    /* padding: 100px 80px; */
+    /* border-radius: 10px; */
+    /* text-align: center; */
+    /* max-width: 1200px; */
+    
+}
+main .about-contner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .about-contner h1 {
+    font-size: 40px;
+}
+main .about-contner p {
+    color:#757575 ;
+    font-size: 22px;
+    padding:20px 130px;
+    /* margin-bottom: 30px; */
+}
+main .about-box {
+    display: flex;
+    justify-content: space-around;
+    /* align-items:row; */
+    /* padding:10px 50px; */
+}
+main .googleapis {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+main .about-box .name  {
+    text-align: center;
+}
+main .about-box .email {
+    text-align: center;
+}
+main .about-box .specialty {
+    text-align: center;
+}
+
+main .about-box .location {
+    text-align: center;
+}
+main .about-box p {
+    font-size: 20px;
+    color: #757575 ;
+}
+main .about-box h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+    margin-top: 0px;
 }
