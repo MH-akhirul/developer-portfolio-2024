@@ -1,3 +1,57 @@
+/* styll */
+/* 1. Use a more-intuitive box-sizing model */
+,::before, ::after {
+    box-sizing: border-box;
+  }
+  
+  / 2. Remove default margin */
+  {
+  margin: 0;
+  }
+  
+  body {
+    /* 3. Add accessible line-height /
+    line-height: 1.5;
+    / 4. Improve text rendering /
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  / 5. Improve media defaults /
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  / 6. Inherit fonts for form controls /
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  / 7. Avoid text overflows /
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  / 8. Improve line wrapping /
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  /
+    
+  Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+/* styll end */
+
+
+
 header {
     background-color:#FFF8F3;
     background-image: url(../images/developer.png),url(../images/header_bg.png );
@@ -240,4 +294,72 @@ main .a-summary-of-my-resume a {
     /* width: 160px; */
     text-decoration: none;
 }
+/* footer sectin css */
+
+footer {
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+    /* padding: 130px 200px; */
+    background-color:#FFF8F3 ;
+}
+footer .footer-continer {
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px ;
+}
+.let-connect {
+    width: 100%;
+}
+.from-contenor {
+    width: 50%;
+}
+.footer-continer h2 {
+    font-size: 35px;
+}
+.let-connect p {
+    font-size: 18px;
+    color: #757575;
+}
+footer .from-contenor {
+    display: flex;
+    flex-direction: column;
+}
+footer .from-contenor  form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+form .name  input[type="text"]  {
+    /* border-radius: 10px; */
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    /* padding: 18px 30p */
+    padding: 40px 30px;
+    /* display: none; */
+}
+form .email  input[type="email"]{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 40px 30px;
+}
+form .message textarea {
+    padding: 18px 30px;
+}
+form .submit  input[type="submit"] {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 20px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    
+}
+.email-1 p {
+    margin: 0;
+    text-align: center;
 }
