@@ -263,19 +263,24 @@ main .a-summary-of-my-resume .resume h3{
 main .a-summary-of-my-resume .resume h4{
     font-size: 28px;
     font-weight: bold;
-    color: #474747;;
+    color: #474747;
+    margin: 10px 0;
 
 }
 
 main .a-summary-of-my-resume .resume h5 {
     font-size: 22px;
     color: #757575;
+    margin: 0;
 }
 
 main .a-summary-of-my-resume .resume p{
     font-size: 20px;
     color: #757575;
 
+}
+.a-summary-of-my-resume hr {
+    margin-bottom: 30px;
 }
 
 main .a-summary-of-my-resume .botten {
